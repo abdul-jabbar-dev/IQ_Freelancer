@@ -1,6 +1,6 @@
-import imgone from '../../assets/service/one.jpg'
-import imgtwo from '../../assets/service/two.jpg'
-import imgthree from '../../assets/service/three.jpg'
+import imgone from '../../../assets/service/one.jpg'
+import imgtwo from '../../../assets/service/two.jpg'
+import imgthree from '../../../assets/service/three.jpg'
 
 const service = [
       {

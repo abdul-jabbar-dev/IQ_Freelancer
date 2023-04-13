@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel, Col, Container, Row } from 'react-bootstrap';
-import service from './fackdata';
+
+import service from './fackdata/servicedata';
+
 const OurServices = () => {
 
     const [datas, setDatas] = useState([]);
@@ -8,6 +10,7 @@ const OurServices = () => {
         setDatas(service)
     }, [])
     console.log(datas)
+    
     return (
         <Container>
             <Row>
