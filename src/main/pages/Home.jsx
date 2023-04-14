@@ -6,6 +6,8 @@ import Business from '../component/Business';
 import Satisfaction from '../component/Satisfaction';
 import TeamSection from '../component/TeamSection';
 import FaqSection from '../component/FaqSection';
+import BlogSection from '../component/BlogSection';
+import Footer from '../component/Footer';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <Satisfaction />
             <TeamSection />
             <FaqSection />
+            <BlogSection />
+            <Footer />
         </div>
     );
 };
