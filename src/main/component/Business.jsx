@@ -5,27 +5,27 @@ import sectionImg from '../../assets/webandmobile/seo-section-2-1.png'
 
 const Business = () => {
     return (
-        <section className='business-section'>
+        <section className='business-section py-5'>
             <Container>
                 <Row>
                     <Col>
                         <img src={iconImg} alt="" />
-                        <h1>Grow your business with our seo agency</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <div>
-                            <span>Content Marketing</span>
-                            <span>Social Marketing</span>
+                        <h1 className='py-3 business-hedding'>Grow your business with our seo agency</h1>
+                        <p className='business-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                        <div className='py-3'>
+                            <span className='feature-box me-3'> <i className="fas fa-star icon-design icon-design me-2 icon-hover"></i> Content Marketing</span>
+                            <span className='feature-box'>  <i className="fas fa-star icon-design icon-design me-2 icon-hover"></i> Social Marketing</span>
+                        </div>
+                        <div className='py-3'>
+                            <span className='feature-box me-3'>  <i className="fas fa-star icon-design icon-design me-2 icon-hover"></i> App Development</span>
+                            <span className='feature-box'>  <i className="fas fa-star icon-design icon-design me-2 icon-hover"></i> Web Development</span>
+                        </div>
+                        <div className='py-3 mb-5'>
+                            <span className='feature-box me-3'> <i className="fas fa-star icon-design icon-design me-2 icon-hover"></i> PPC Advertising	</span>
+                            <span className='feature-box'> <i className="fas fa-star icon-design icon-design me-2 icon-hover"></i> Social Media Promotion</span>
                         </div>
                         <div>
-                            <span> App Development</span>
-                            <span> Web Development</span>
-                        </div>
-                        <div>
-                            <span>PPC Advertising	</span>
-                            <span>Social Media Promotion</span>
-                        </div>
-                        <div>
-                            <Button>Learn More</Button>
+                            <button className='regular-btn'>Learn More</button>
                         </div>
                     </Col>
                     <Col>
