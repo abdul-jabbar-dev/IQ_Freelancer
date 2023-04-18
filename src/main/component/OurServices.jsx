@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Carousel, Col, Container, Row } from 'react-bootstrap';
 
 import service from './fackdata/servicedata';
+import './style.css'
 
 const OurServices = () => {
 
@@ -12,10 +13,16 @@ const OurServices = () => {
     console.log(datas)
 
     return (
-        <section className='our-service-section'>
+        <section className='our-service-section py-5'>
             <Container>
                 <Row>
-                    <Col className='text-center'>Our Service</Col>
+                    <Col className='text-center'>
+                        <div className='py-3'>
+                            <h2 className='our-section-heading'> Our Service
+                            </h2>
+                            
+                        </div>
+                    </Col>
                 </Row>
                 <Row>
                     {
@@ -34,13 +41,10 @@ const OurServices = () => {
                                 }
 
                             </Carousel>
-                            <h6>{data?.name}</h6>
-                            <p>{data?.description}</p>
-                            {/* {
-                            console.log(data?.comments[0]['massage'],"36")
-                        } */}
-                            <p>{data?.comments[0]['massage']}</p>
-                            <p>{data?.reviews[0]['ratting']}</p>
+                            {/* <h6>{data?.name}</h6> */}
+                            <h4 className='multiline-ellipsis pe-5 pt-3'>{data?.description}</h4>
+                            {/* <p>{data?.comments[0]['massage']}</p> */}
+                            <p className='pt-2'><i className="fas fa-star icon-design"></i> {data?.reviews[0]['ratting']}</p>
                         </Col>)
                     }
                 </Row>

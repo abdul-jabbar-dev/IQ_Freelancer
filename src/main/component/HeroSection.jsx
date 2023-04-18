@@ -31,7 +31,9 @@ const HeroSection = () => {
                     </Row>
                     <Row>
                         <Col className='text-center'>
-                            <span className='review-on-trustpilot'>See our reviews on  </span>
+                            <div className='mb-4'>
+                             <span className='review-on-trustpilot'>See our reviews on  <i class="fas fa-star-half-alt"></i> Trustpilot</span>
+                            </div>
                         </Col>
                     </Row>
                     <Row>

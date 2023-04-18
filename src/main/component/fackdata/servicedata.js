@@ -7,10 +7,10 @@ const service = [
         id: 1,
         name: "how to create a youtube chanel",
         images: [ imgone, imgtwo ],
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+        description: "how to create a youtube chanel we will teach you i our",
         reviews: [{
             userid : 1,
-            ratting: 5
+            ratting: 2
         }],
         comments : [{
             userid : 1,
@@ -21,7 +21,7 @@ const service = [
         id: 2,
         name: "Google Engineering",
         images: [ imgone, imgtwo, imgthree ],
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+        description: "wow this is work are very well",
         reviews: [{
             userid : 1,
             ratting: 5
@@ -35,10 +35,10 @@ const service = [
         id: 3,
         name: "Twitter Account",
         images: [ imgone, imgthree, imgtwo ],
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+        description: "How to crete a Google Account here we will teach you",
         reviews: [{
             userid : 1,
-            ratting: 5
+            ratting: 4.5
         }],
         comments : [{
             userid : 1,

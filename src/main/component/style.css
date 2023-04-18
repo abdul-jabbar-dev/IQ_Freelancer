@@ -71,3 +71,25 @@ h1, h2,h3,h4,h5,h6{
     padding: 8px;
 }
 
+/* Our Service section  */
+.our-section-heading{
+    font-size: 32px;
+    font-weight: 600;
+}
+.multiline-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+    color: #222325;
+    line-height: 22px;
+    font-weight: 500;
+    transition: .2s;
+  }
+.multiline-ellipsis:hover{
+    color: #1dbf73;
+}
+.icon-design{
+    color: #ffbe5b;
+}
