@@ -7,13 +7,13 @@ const setisfactionClient = [
     },
     {
         id : 2,
-        icon : "fa fa-smile-o",
+        icon : "fas fa-smile",
         number : 999,
         setisfactionsector : "Happy Clients",
     },
     {
         id : 3,
-        icon : "fa fa-bar-chart-o",
+        icon : "fas fa-chart-bar",
         number : 120,
         setisfactionsector : "Ongoing Projects",
     },

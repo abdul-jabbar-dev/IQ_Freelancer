@@ -13,23 +13,24 @@ const Satisfaction = () => {
     console.log(setisfactionDatas)
 
     return (
-        <section className='satisfaction-section'>
-            <Container>
+        <section className='satisfaction-section py-5'>
+            <Container className='satisfaction-section-inner'>
                 <Row>
                     {
                         setisfactionDatas?.map(setisfactionData => <Col key={setisfactionData?.id}>
-                            <div>
-                                <div>
-                                    <span>{setisfactionData?.icon}</span>
+                            <div className='text-center setisfaction-inner'>
+                                <div className='setisfaction-icon'>
+                                    <i className={setisfactionData?.icon}></i>
                                 </div>
-                                <div>
+                                <div className='conter-num'>
                                     <CountUp
                                         start={0}
                                         end={setisfactionData?.number}
                                         duration={8}
                                     />
+                                    <span>+</span>
                                 </div>
-                                <p>{setisfactionData?.setisfactionsector}</p>
+                                <p className='setisfaction-text'>{setisfactionData?.setisfactionsector}</p>
                             </div>
                         </Col>)
                     }
