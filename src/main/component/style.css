@@ -164,3 +164,25 @@ h1, h2,h3,h4,h5,h6{
     background-image: url('../../assets/background-images/map.png');
     background-position: center;
 }
+
+/* Meet Our Team section */
+.team-section-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #080A3C;
+}
+.team-section-inner{
+    background-color: #ffffff;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+}
+.team-section-name{
+    color: #4a6f8a;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.team-section-designation{
+    font-size: 16px;
+    padding: 0px 0px 20px;
+}
