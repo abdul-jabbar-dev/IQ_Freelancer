@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+.regular-btn{
+    color: #fff;
+    background-color: #34c38f;
+    border-color: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.regular-btn:hover{
+    background-color: #27a275;
+    border-color: none;
+    transition: .2s;
+}
+
+/* Global Css end here */
+.naviagtion-section{
+    z-index: 99999;
+}
+.hero-section{
+    top: 50;
+    background-image: url('../../assets/background-images/bg-ico-hero.jpg');
+    background-blend-mode: color(#000);
+}
+.bg-overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 120px 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    opacity: 10;
+    background-color: #414da9c9;
+}
+.hero-section-inner{
+    padding: 50px 0px 0px;
+}
+.hero-section-card{
+    padding: 50px 0px 0px;
+}
+.hero-section-inner h1{
+    font-size: 42px;
+    font-weight: 700;
+    width: 80%;
+    padding: 16px 0px;
+    color: #ffffff;
+}
+.hero-section-slogan{
+    font-size: 14px;
+    padding: 16px 0px;
+    color: #ffffff80;
+    width: 75%;
+}
+.hero-section-action-text{
+    color: #ffffff80;
+    font-size: 14px;
+    padding: 8px;
+}
+.review-on-trustpilot{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px;
+}
+

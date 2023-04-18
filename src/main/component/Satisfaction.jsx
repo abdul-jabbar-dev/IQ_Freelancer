@@ -13,27 +13,29 @@ const Satisfaction = () => {
     console.log(setisfactionDatas)
 
     return (
-        <Container>
-            <Row>
-                {
-                    setisfactionDatas?.map(setisfactionData => <Col key={setisfactionData?.id}>
-                        <div>
+        <section className='satisfaction-section'>
+            <Container>
+                <Row>
+                    {
+                        setisfactionDatas?.map(setisfactionData => <Col key={setisfactionData?.id}>
                             <div>
-                                <span>{setisfactionData?.icon}</span>
-                            </div>
-                            <div>
-                                <CountUp
-                                    start={0}
-                                    end={setisfactionData?.number}
-                                    duration={8}    
-                                />
+                                <div>
+                                    <span>{setisfactionData?.icon}</span>
                                 </div>
-                            <p>{setisfactionData?.setisfactionsector}</p>
-                        </div>
-                    </Col>)
-                }
-            </Row>
-        </Container>
+                                <div>
+                                    <CountUp
+                                        start={0}
+                                        end={setisfactionData?.number}
+                                        duration={8}
+                                    />
+                                </div>
+                                <p>{setisfactionData?.setisfactionsector}</p>
+                            </div>
+                        </Col>)
+                    }
+                </Row>
+            </Container>
+        </section>
     );
 };
 

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Nav, Navbar,NavDropdown  } from 'react-bootstrap';
+import './style.css'
 
 const Navigation = () => {
     return (
-        <div>
+        <section className='w-100 fixed naviagtion-section'>
             <Navbar bg="light" expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">Logo</Navbar.Brand>
@@ -25,7 +26,7 @@ const Navigation = () => {
                     </Navbar.Collapse>
                 </Container>
                 </Navbar>
-        </div>
+        </section>
     );
 };
 
