@@ -186,3 +186,47 @@ h1, h2,h3,h4,h5,h6{
     font-size: 16px;
     padding: 0px 0px 20px;
 }
+
+/* FAQ Section  */
+.faq-section-li{
+    padding: 24px 16px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #fff;
+    background-color: #556ee6;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.faq-icon{
+    font-size: 22px;
+}
+.pointer{
+    cursor: pointer;
+}
+.card-title {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+    font-weight: 600;
+}
+.accordion-item{
+    border: none !important;
+}
+.accordion-item:first-of-type .accordion-button{
+    border: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none !important; 
+    outline: none !important;
+     box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) { 
+    background-color: none !important; 
+    box-shadow: none !important; 
+}
+.accordion-button{
+    background-color: #f6f6f6 !important;
+    margin-bottom: 8px !important;
+    border-radius: 10px !important;
+}

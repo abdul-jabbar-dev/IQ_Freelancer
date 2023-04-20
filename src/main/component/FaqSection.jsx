@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Accordion, Card, Col, Container, Row } from 'react-bootstrap';
+import './style.css'
 
 const FaqSection = () => {
 
@@ -13,20 +14,20 @@ const FaqSection = () => {
             <Container>
                 <Row className='py-5'>
                     <Col xs={2}>
-                        <ul>
-                            <li onClick={() => setValue(0)} >General Questions</li>
-                            <li onClick={() => setValue(1)} >Credits</li>
-                            <li onClick={() => setValue(2)} >Api</li>
+                        <ul className='text-center'>
+                            <li onClick={() => setValue(0)} className={value == 0  ? `faq-section-li`: `py-4 pointer`}><i className="faq-icon pb-1 block  far fa-question-circle"></i>General Questions</li>
+                            <li onClick={() => setValue(1)} className={ value ==  1 ? `faq-section-li`: `py-4 pointer`}><i className="faq-icon pb-1 block fas fa-dollar-sign"></i>Credits</li>
+                            <li onClick={() => setValue(2)} className={value == 2  ? `faq-section-li`: `py-4 pointer`}><i className="faq-icon pb-1 block  fas fa-file-code"></i>Api</li>
                         </ul>
                     </Col>
                     <Col xs={10}>
 
                         {/* First Card */}
                         {value == 0 && <Card body>
-                            <h4>General Questions</h4>
+                            <h4 className='card-title'>General Questions</h4>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>What is the meaning of each status in the report?</Accordion.Header>
+                                    <Accordion.Header  className='custom-accordion .accordion-list'>What is the meaning of each status in the report?</Accordion.Header>
                                     <Accordion.Body>
                                         <div className="card-body">
                                             <p className="mb-2">There are 7 statuses in <span className="text-primary">MailVeri</span> report:</p>
@@ -75,7 +76,7 @@ const FaqSection = () => {
 
                         {/* Second Card */}
                         {value == 1 && <Card body>
-                            <h4>Credits</h4>
+                            <h4 className='card-title'>Credits</h4>
                             <Accordion defaultActiveKey="0" className='pt-3'>
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>Do you offer free credits?</Accordion.Header>
@@ -107,10 +108,10 @@ const FaqSection = () => {
 
                         {/* Third Card  */}
                         {value == 2 && <Card body>
-                            <h4>API</h4>
+                            <h4 className='card-title'>API</h4>
                             <Accordion defaultActiveKey="0" className='pt-3'>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Do you support libs in programming languages such as Python, PHP, ...?</Accordion.Header>
+                                    <Accordion.Header className='custom-accordion .accordion-list'>Do you support libs in programming languages such as Python, PHP, ...?</Accordion.Header>
                                     <Accordion.Body>
                                         Not yet. Currently MailVeri just supports HTTP APIs. You can use cURL or make HTTP requests to MailVeri API server in any programming languages.
                                     </Accordion.Body>
