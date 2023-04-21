@@ -8,7 +8,7 @@ const blogdata = [
         id : 1,
         blogImg: blogImgOne,
         date: "December 8, 2019",
-        blogTitle: "Configure Redux Into Your WordPress Theme",
+        blogTitle: "Configure Redux Into Your WordPress",
         authImg: authImg,
         authName: "Smit Doe"
     },
@@ -16,7 +16,7 @@ const blogdata = [
         id : 2,
         blogImg: blogImgTwo,
         date: "December 8, 2019",
-        blogTitle: "How To Create A Responsive Popup Gallery?",
+        blogTitle: "How To Create A Responsive ?",
         authImg: authImg,
         authName: "Smit Doe"
     },

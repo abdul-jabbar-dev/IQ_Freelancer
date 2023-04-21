@@ -7,11 +7,11 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col xs={6}>
-                        <h4>Company Name</h4>
+                        <h2>Company Name</h2>
                         <p>Keeping your sending reputation is crucial for your email marketing campaign. By detecting whether the mailbox you are going to send to is ready to receive email, you can get high deliverability rate and gain your reputation.</p>
                     </Col>
                     <Col xs={3}>
-                        <h4>Sevices</h4>
+                        <h3>Sevices</h3>
                         <ul>
                             <li>FAQs</li>
                              <li>About Us</li>
@@ -29,20 +29,25 @@ const Footer = () => {
                         </ul>
                     </Col>
                 </Row>
+                <hr className='mt-3'/>
                 <Row>
                     <Col>
-                        <h5>MailVeri logo light</h5>
-                        <h5>2023 © MailVeri  Verify before send</h5>
+                        <div className='pt-4'>
+                            <h5>MailVeri logo light</h5>
+                            <h5>2023 © MailVeri  Verify before send</h5>
+                        </div>
                     </Col>
 
                     <Col>
-                        <h5 className='text-right'>Social Icons</h5>
-                        <ul className='flex justify-content-between'>
-                            <li className='inline'>skype</li>
-                            <li className='inline'>fb</li>
-                            <li className='inline'>ins</li>
-                            <li className='inline'>in</li>
+                    <div className='pt-4'>
+                        <h5 className=''>Social Icons</h5>
+                        <ul className=''>
+                            <li className='inline me-3'>skype</li>
+                            <li className='inline me-3'>fb</li>
+                            <li className='inline me-3'>ins</li>
+                            <li className='inline me-3'>in</li>
                         </ul>
+                        </div>
                     </Col>
                 </Row>
             </Container>

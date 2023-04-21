@@ -21,6 +21,12 @@ h1, h2,h3,h4,h5,h6{
 }
 
 /* Global Css end here */
+.nav-light-link{
+    color: #fff !important;
+}
+.nav-dark-link{
+    color: #000 !important;
+}
 .naviagtion-section{
     z-index: 99999;
 }
@@ -188,6 +194,10 @@ h1, h2,h3,h4,h5,h6{
 }
 
 /* FAQ Section  */
+.faq-section{
+    background-color: #f8f8fb;
+    margin: 40px 0px;
+}
 .faq-section-li{
     padding: 24px 16px;
     text-align: center;
@@ -229,4 +239,24 @@ h1, h2,h3,h4,h5,h6{
     background-color: #f6f6f6 !important;
     margin-bottom: 8px !important;
     border-radius: 10px !important;
+}
+/*  Blog Section */
+.blog-header{
+    font-size: 42px;
+    font-weight: 600;
+}
+/* Footer Section */
+.circle-img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.img-auth-div{
+    display: flex;
+    align-items: center;
+}
+.footer-section{
+    padding: 80px 0 40px;
+    background-color: #2a3042;
+    color: rgba(255, 255, 255, 0.5);
 }

@@ -12,6 +12,11 @@ const FaqSection = () => {
     return (
         <section className="faq-section">
             <Container>
+                <Row>
+                    <Col>
+                        <h2 className='text-center mt-5'>Frequently asked questions</h2>
+                    </Col>
+                </Row>
                 <Row className='py-5'>
                     <Col xs={2}>
                         <ul className='text-center'>
